@@ -1,0 +1,14 @@
+<div class="spacer"></div>
+
+<div *ngFor="let plan of plans" class="rectangle-container">
+  <h1>{{ plan.name }}</h1>
+  <h2>{{ plan.description }}</h2>
+  <ul>
+    <li *ngFor="let feature of plan.features">{{ feature }}</li>
+    <li>{{ plan.price }}</li>
+    <!-- Add more subtopics as needed -->
+  </ul>
+  <button mat-raised-button color="primary">Select Plan</button>
+</div>
+
+<div class="spacer"></div>

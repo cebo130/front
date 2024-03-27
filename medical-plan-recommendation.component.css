@@ -1,0 +1,49 @@
+.rectangle-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  width: 600px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the container */
+}
+
+.rectangle-container h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.rectangle-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rectangle-container ul li {
+  list-style-type: disc;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.rectangle-container button {
+  width: 125px;
+  margin-top: 25px;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #456BCE;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  border-color: #456BCE;
+}
+
+.spacer {
+  height: 20px; /* Adjust height as needed */
+}
+
+.footer {
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 10px 0;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  clear: both;
+} 
